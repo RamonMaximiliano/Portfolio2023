@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    max-width: 900px;
+    max-width: 1000px;
     min-height: 150px;
     margin: auto;
     flex-wrap: wrap;
@@ -52,8 +52,10 @@ body {
     color: white;
     display: flex;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1000px;
     margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
     min-height: 200px;
     flex-wrap: wrap;
     line-height: 25px;
@@ -63,8 +65,79 @@ body {
     margin-bottom:10px;
     margin-top:10px;
 }
+
+
+#profile_picture{
+    border-radius: 50%;
+    max-width: 250px;
+}
+
 /* PROFILE*/
 
+
+/* MEDIA ICONS START */
+
+.mediaIconsHeader {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    min-height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+
+
+.mediaIconGitHub {
+    background: url("images/media-icons/github.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 56, 65);
+    border-radius: 50%;
+    border-style: none;
+    transition: .8s background;
+}
+
+.mediaIconLinkedin {
+    background: url("images/media-icons/linkedin.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 56, 65);
+    border-radius: 50%;
+    border-style: none;
+    transition: .8s background;
+}
+
+.mediaIconWhatsapp {
+    background: url("images/media-icons/whatsapp.png");
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(44, 56, 65);
+    border-radius: 50%;
+    transition: .8s background;
+
+}
+
+.mediaIconGitHub:hover {
+    background: url("images/media-icons/github-reverse.png");
+    background-size: cover;
+    background-color: black;
+}
+
+.mediaIconLinkedin:hover {
+    background: url("images/media-icons/linkedin-reverse.png");
+    background-size: cover;
+    background-color: black;
+}
+
+.mediaIconWhatsapp:hover {
+    background: url("images/media-icons/whatsapp-reverse.png");
+    background-size: cover;
+    background-color: black;
+}
 
 
 
