@@ -4,7 +4,6 @@ https://portfolio-gsj.vercel.app/index.html#habilidades
 
 https://ramonmaximiliano.github.io/Portfolio/
 
-
 */
 
 /* PROFILE DATA FETCH API START*/
@@ -26,7 +25,6 @@ function profilePicture() {
         .catch(function () {
             window.alert("Sorry, you are offline, most of the page content will not load!")
         })
-
 }
 
 window.onload = profilePicture();
@@ -41,16 +39,67 @@ window.onload = profilePicture();
 /* LANGUAGE CHANGER START */
 
 function portugues(){
-    document.getElementById("Ingles").classList.remove("language-changer-button")
-    document.getElementById("Portugues").classList.add("language-changer-button")
+    document.getElementById("Ingles").classList.remove("language-changer-button");
+    document.getElementById("Portugues").classList.add("language-changer-button");
+
+    /*Header translation start*/
+    document.getElementById("Ingles").innerText = "Inglês";
+    document.getElementById("Portugues").innerText = "Português";
+    document.querySelector(".main-title").innerText = "Portfólio";
+    document.getElementById("Sobre").innerText = "Sobre";
+    document.getElementById("Projetos").innerText = "Projetos";
+    document.getElementById("Curriculo").innerText = "Currículo";
+    /*Header translation end*/
+
+    /*Profile translation start*/
+    document.querySelector(".profession").innerText = "Aprendendo Web Dev, a meta é ser dev full stack";
+    document.getElementById("Fone").innerText = "Fone: ";
+    document.getElementById("Endereço").innerText = "Endereço: ";
+    /*Profile translation end*/
+
+    /*Footer translation start*/
+    document.getElementById("Portfolio-footer").innerText = "Portfólio";
+    document.getElementById("text-footer").innerText = "Desenvolvido por Ramon Maximiliano";
+    /*Footer translation end*/
+
 }
 
 function ingles(){
     document.getElementById("Portugues").classList.remove("language-changer-button")
     document.getElementById("Ingles").classList.add("language-changer-button")
+
+    /*Header translation start*/
+    document.getElementById("Ingles").innerText = "English";
+    document.getElementById("Portugues").innerText = "Portuguese";
+    document.querySelector(".main-title").innerText = "Portfolio";
+    document.getElementById("Sobre").innerText = "About";
+    document.getElementById("Projetos").innerText = "Projects";
+    document.getElementById("Curriculo").innerText = "Resume";
+    /*Header translation end*/
+
+    /*Profile translation start*/
+    document.querySelector(".profession").innerText = "Learning Web Dev, the goal is to be a full stack dev";
+    document.getElementById("Fone").innerText = "Phone: ";
+    document.getElementById("Endereço").innerText = "Address: ";
+    /*Profile translation end*/
+
+    /*Footer translation start*/
+    document.getElementById("Portfolio-footer").innerText = "Portfolio";
+    document.getElementById("text-footer").innerText = "Developed by Ramon Maximiliano";
+    /*Footer translation end*/
+
 }
 
-
-
 /* LANGUAGE CHANGER END */
+
+
+
+
+
+
+
+
+
+
+
 

@@ -32,7 +32,7 @@ body {
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
-    transition: 0.5s all;
+    transition: 0.2s all;
 }
 
 .list-item:hover {
@@ -40,7 +40,6 @@ body {
     cursor: pointer;
     text-decoration: underline;
 }
-
 
 .language-changer{
     display:flex;
@@ -71,6 +70,7 @@ body {
 #Portugues:hover{
     border:  rgb(0, 189, 149) solid 3px;
 }
+
 #Ingles:hover{
     border:  rgb(0, 189, 149) solid 3px;
 }
@@ -79,12 +79,13 @@ body {
     background-color: rgb(6, 134, 107) !important;
 }
 
-
 /* HEADER END*/
 
-
-
 /* PROFILE START*/
+.name{
+    color: rgb(0, 189, 149);
+}
+
 .profile-main {
     background-color: rgb(23, 28, 34);
 }
@@ -108,7 +109,6 @@ body {
     margin-top:10px;
 }
 
-
 #profile_picture{
     border-radius: 50%;
     max-width: 250px;
@@ -116,9 +116,7 @@ body {
 
 /* PROFILE END*/
 
-
 /* MEDIA ICONS START */
-
 .mediaIconsHeader {
     display: flex;
     flex-wrap: wrap;
@@ -128,7 +126,6 @@ body {
     align-items: center;
     margin-top:20px;
 }
-
 
 .mediaIconGitHub {
     background: url("images/media-icons/github.png");
@@ -160,43 +157,83 @@ body {
     background-color: rgb(44, 56, 65);
     border-radius: 50%;
     transition: .8s background;
-
 }
 
 .mediaIconGitHub:hover {
     background: url("images/media-icons/github-reverse.png");
     background-size: cover;
-    background-color: black;
+    background-color: rgb(0, 189, 149);
 }
 
 .mediaIconLinkedin:hover {
     background: url("images/media-icons/linkedin-reverse.png");
     background-size: cover;
-    background-color: black;
+    background-color: rgb(0, 189, 149);
 }
 
 .mediaIconWhatsapp:hover {
     background: url("images/media-icons/whatsapp-reverse.png");
     background-size: cover;
-    background-color: black;
+    background-color: rgb(0, 189, 149);
 }
-
 /* MEDIA ICONS END */
 
+/*FOOTER START*/
+.mediaIconsFooter {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    min-height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+}
+
+.footer-title{
+    color:white;
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+}
+
+.footer-title p{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.footer{
+    margin-top:300px;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+/*FOOTER END*/
 
 
-/* 
-Verde:
-rgb(0, 189, 149)
-
-Claro
-rgb(31, 40, 47)
-
-Escuro
-rgb(23, 28, 34)
+/*EDUCATION START*/
 
 
+.education {
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    min-height: 200px;
+    flex-wrap: wrap;
+    line-height: 25px;
+
+}
+
+.education-div{
+    background-color: rgb(23, 28, 34);
+}
 
 
 
-*/
+/* filter: grayscale(100%); */
+
+/*EDUCATION END*/
+
