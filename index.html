@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <header class="main-header">
         <h1 class="main-title">Portfólio</h1>
         <ul class="main-list">
@@ -18,7 +17,10 @@
             <li class="list-item">Projetos</li>
             <li class="list-item">Currículo</li>
         </ul>
-        <h1 class="language-changer">language-changer</h1>
+        <div class="language-changer">
+            <button class="language-changer-button" id="Portugues" onclick="portugues()">Português</button>
+            <button  id="Ingles" onclick="ingles()">Inglês</button>
+        </div>
     </header>
 
     <div class="profile-main">
@@ -44,14 +46,11 @@
             </div>
             <div class="picture">
                 <a id="Profile_picture_Anchor" target="_blank">
-                    <img alt="Testing" id="profile_picture">
+                    <img alt="Testing" id="profile_picture" title="Click to go to the GitHub profile page">
                 </a>
             </div>
         </div>
     </div>
-
-
-
     <script src="script.js"></script>
 </body>
 

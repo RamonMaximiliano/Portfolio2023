@@ -1,3 +1,13 @@
+/* 
+
+https://portfolio-gsj.vercel.app/index.html#habilidades
+
+https://ramonmaximiliano.github.io/Portfolio/
+
+
+*/
+
+/* PROFILE DATA FETCH API START*/
 
 /* Fetch GitHub API to get profile data */
 /* https://api.github.com/users/RamonMaximiliano */
@@ -24,16 +34,23 @@ window.onload = profilePicture();
 /* Fetch GitHub API to get profile data */
 /* https://api.github.com/users/RamonMaximiliano */
 
+/* PROFILE DATA FETCH API END*/
 
 /* ---------------------------------------------------------------------------- */
 
+/* LANGUAGE CHANGER START */
+
+function portugues(){
+    document.getElementById("Ingles").classList.remove("language-changer-button")
+    document.getElementById("Portugues").classList.add("language-changer-button")
+}
+
+function ingles(){
+    document.getElementById("Portugues").classList.remove("language-changer-button")
+    document.getElementById("Ingles").classList.add("language-changer-button")
+}
 
 
 
-
-
-
-
-
-
+/* LANGUAGE CHANGER END */
 

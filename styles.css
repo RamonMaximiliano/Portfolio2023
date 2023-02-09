@@ -9,7 +9,7 @@ body {
 }
 
 
-/* HEADER*/
+/* HEADER START*/
 .main-header {
     align-items: center;
     display: flex;
@@ -32,17 +32,59 @@ body {
     padding: 20px;
     font-size: 20px;
     font-weight: bold;
+    transition: 0.5s all;
 }
 
 .list-item:hover {
     color: rgb(0, 189, 149);
     cursor: pointer;
+    text-decoration: underline;
 }
-/* HEADER*/
+
+
+.language-changer{
+    display:flex;
+}
+
+#Ingles{
+    width:80px;
+    height: 30px;
+    background-color: transparent;
+    border:  rgb(6, 134, 107) solid 1px;
+    color:white;
+    border-radius: 0px 5px 5px 0px;
+    cursor:pointer;
+    transition: 0.1s border;
+}
+
+#Portugues{
+    width:80px;
+    height: 30px;
+    background-color: transparent;
+    border:  rgb(6, 134, 107) solid 1px;
+    color:white;
+    border-radius: 5px 0px 0px 5px;
+    cursor:pointer;
+    transition: 0.1s border;
+}
+
+#Portugues:hover{
+    border:  rgb(0, 189, 149) solid 3px;
+}
+#Ingles:hover{
+    border:  rgb(0, 189, 149) solid 3px;
+}
+
+.language-changer-button{
+    background-color: rgb(6, 134, 107) !important;
+}
+
+
+/* HEADER END*/
 
 
 
-/* PROFILE*/
+/* PROFILE START*/
 .profile-main {
     background-color: rgb(23, 28, 34);
 }
@@ -72,7 +114,7 @@ body {
     max-width: 250px;
 }
 
-/* PROFILE*/
+/* PROFILE END*/
 
 
 /* MEDIA ICONS START */
@@ -139,7 +181,7 @@ body {
     background-color: black;
 }
 
-
+/* MEDIA ICONS END */
 
 
 
@@ -155,11 +197,6 @@ rgb(23, 28, 34)
 
 
 
-
-https://portfolio-gsj.vercel.app/index.html#habilidades
-
-
-https://ramonmaximiliano.github.io/Portfolio/
 
 
 */
