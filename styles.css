@@ -8,7 +8,6 @@ body {
     background-color: rgb(31, 40, 47);
 }
 
-
 /* HEADER START*/
 .main-header {
     align-items: center;
@@ -216,6 +215,7 @@ body {
     align-items: center;
     color: white;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
@@ -224,11 +224,30 @@ body {
     min-height: 200px;
     flex-wrap: wrap;
     line-height: 25px;
+    align-items: center;
+    text-align: center;
 
 }
 
 .education-div{
     background-color: rgb(23, 28, 34);
+}
+
+
+.education-icons{
+    max-width:100px;
+}
+
+.education-card{
+    width:300px;
+    height:320px;
+    background-color: rgb(31, 40, 47);
+    border-radius: 10px;
+    padding:20px;
+    margin:5px;
+}
+.education-card h3{
+    color: rgb(0, 189, 149);
 }
 
 

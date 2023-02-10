@@ -62,6 +62,31 @@ function portugues(){
     document.getElementById("text-footer").innerText = "Desenvolvido por Ramon Maximiliano";
     /*Footer translation end*/
 
+    /*Education translation start*/
+    document.getElementById("Education").innerText = "Formação";
+    document.getElementById("graduation").innerText = "Análise e desenvolvimento de sistemas";
+    document.getElementById("mba-data").innerText = "MBA em Data Science";
+    document.getElementById("mba-data").innerText = "MBA em Data Science";
+    document.getElementById("mba-project").innerText = "MBA em Gestão de projetos";
+    document.getElementById("graduation-text").innerText = "Graduação em analise, desenvolvimento, documentação, teste, implantação e manutenção de sistemas computacionais e softwares.";
+    document.getElementById("mba-data-text").innerText = "Tecnologia para negócios: AI, Data Science e Big Data. Como utilizar as principais tendências em tecnologia para administrar negócios tecnologicamente competitivos.";
+    document.getElementById("mba-project-text").innerText = "Gestão de projetos desde a sua concepção até a implementação, integração entre equipes, prazos, custos, recursos, alinhado com as melhores práticas internacionais.";
+
+
+
+
+    
+
+
+    /*Education translation end*/
+
+
+
+
+
+
+
+
 }
 
 function ingles(){
@@ -87,6 +112,22 @@ function ingles(){
     document.getElementById("Portfolio-footer").innerText = "Portfolio";
     document.getElementById("text-footer").innerText = "Developed by Ramon Maximiliano";
     /*Footer translation end*/
+
+    /*Education translation start*/
+    document.getElementById("Education").innerText = "Education";
+    document.getElementById("graduation").innerText = "System Analysis and Development";
+    document.getElementById("mba-data").innerText = "MBA in Data Science";
+    document.getElementById("mba-project").innerText = "MBA in Project Management";
+    document.getElementById("graduation-text").innerText = "Degree in analysis, development, documentation, testing, implementation and maintenance of computer systems and software.";
+    document.getElementById("mba-data-text").innerText = "Technology for business: AI, Data Science and Big Data. How to use key trends in technology to run a technologically competitive business.";
+    document.getElementById("mba-project-text").innerText = "Project management from conception to implementation, integration between teams, deadlines, costs, resources, in line with the best international practices.";
+
+
+
+
+
+    /*Education translation end*/
+
 
 }
 
