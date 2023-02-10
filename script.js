@@ -38,7 +38,7 @@ window.onload = profilePicture();
 
 /* LANGUAGE CHANGER START */
 
-function portugues(){
+function portugues() {
     document.getElementById("Ingles").classList.remove("language-changer-button");
     document.getElementById("Portugues").classList.add("language-changer-button");
 
@@ -71,25 +71,24 @@ function portugues(){
     document.getElementById("graduation-text").innerText = "Graduação em analise, desenvolvimento, documentação, teste, implantação e manutenção de sistemas computacionais e softwares.";
     document.getElementById("mba-data-text").innerText = "Tecnologia para negócios: AI, Data Science e Big Data. Como utilizar as principais tendências em tecnologia para administrar negócios tecnologicamente competitivos.";
     document.getElementById("mba-project-text").innerText = "Gestão de projetos desde a sua concepção até a implementação, integração entre equipes, prazos, custos, recursos, alinhado com as melhores práticas internacionais.";
-
-
-
-
-    
-
-
     /*Education translation end*/
 
+    /*Languages translation start*/
+    document.getElementById("Languages").innerText = "Idiomas";
+    document.getElementById("Portuguese").innerText = "Português";
+    document.getElementById("English").innerText = "Inglês";
+    document.getElementById("Spanish").innerText = "Espanhol";
+    document.getElementById("French").innerText = "Francês";
+    document.getElementById("Native").innerText = "Nativo";
+    document.getElementById("Fluent-Ingles").innerText = "Fluente";
+    document.getElementById("Fluent-Espanhol").innerText = "Fluente";
+    document.getElementById("Fluent-Frances").innerText = "Fluente";
 
-
-
-
-
-
+    /*Languages translation end*/
 
 }
 
-function ingles(){
+function ingles() {
     document.getElementById("Portugues").classList.remove("language-changer-button")
     document.getElementById("Ingles").classList.add("language-changer-button")
 
@@ -121,13 +120,18 @@ function ingles(){
     document.getElementById("graduation-text").innerText = "Degree in analysis, development, documentation, testing, implementation and maintenance of computer systems and software.";
     document.getElementById("mba-data-text").innerText = "Technology for business: AI, Data Science and Big Data. How to use key trends in technology to run a technologically competitive business.";
     document.getElementById("mba-project-text").innerText = "Project management from conception to implementation, integration between teams, deadlines, costs, resources, in line with the best international practices.";
-
-
-
-
-
     /*Education translation end*/
 
+    /*Languages translation start*/
+    document.getElementById("Languages").innerText = "Languages";
+    document.getElementById("Portuguese").innerText = "Portuguese";
+    document.getElementById("English").innerText = "English";
+    document.getElementById("Spanish").innerText = "Spanish";
+    document.getElementById("French").innerText = "French";
+    document.getElementById("Native").innerText = "Native";
+    document.getElementById("Fluent-Ingles").innerText = "Fluent";
+    document.getElementById("Fluent-Espanhol").innerText = "Fluent";
+    document.getElementById("Fluent-Frances").innerText = "Fluent";    /*Languages translation end*/
 
 }
 
