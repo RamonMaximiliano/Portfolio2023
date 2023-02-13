@@ -36,6 +36,26 @@ window.onload = profilePicture();
 
 /* ---------------------------------------------------------------------------- */
 
+let lang_items = document.querySelectorAll(".language-div-item")
+        console.log(lang_items)
+ 
+for (item of lang_items){
+    item.addEventListener("mouseover", function test(e){
+        document.getElementById(`level-${e.target.id}`).setAttribute("style", "visibility:visible")
+    } )
+}
+
+for (item of lang_items){
+    item.addEventListener("mouseout", function test(e){
+        document.getElementById(`level-${e.target.id}`).setAttribute("style", "visibility:hideen")
+    } )
+}
+
+
+
+
+
+
 /* LANGUAGE CHANGER START */
 
 function portugues() {
