@@ -37,7 +37,6 @@ body {
 .list-item:hover {
     color: rgb(0, 189, 149);
     cursor: pointer;
-    text-decoration: underline;
 }
 
 .language-changer {
@@ -292,7 +291,7 @@ body {
 }
 
 .language-level {
-    font-size:18px;
+    font-size: 18px;
     opacity: 0;
     transition: all 0.5s;
     color: rgb(0, 189, 149);
@@ -316,33 +315,34 @@ body {
 /*TECHS START*/
 
 
-.techs{
+.techs {
     background-color: rgb(23, 28, 34);
 }
 
-.tech-wrap{
+.tech-wrap {
     align-items: center;
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    color:white;
+    color: white;
     justify-content: space-between;
     max-width: 900px;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
     font-weight: bold;
-    margin:auto;
+    margin: auto;
 }
 
-.tech-wrap img{
-    width:80px;
-    margin:10px;
-/*     filter:grayscale(100%);
- */}
+.tech-wrap img {
+    width: 80px;
+    margin: 10px;
+    /*     filter:grayscale(100%);
+ */
+}
 
-.tech-item{
-    width:150px;
-    margin:20px;
+.tech-item {
+    width: 150px;
+    margin: 20px;
     background-color: rgb(14, 78, 78);
 }
 
