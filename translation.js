@@ -49,7 +49,25 @@ function portugues() {
 
     /*Languages translation end*/
 
+
+    /*Techs translation start*/
+    document.getElementById("AvançadoHTML").innerText = "Avançado";
+    document.getElementById("AvançadoCSS").innerText = "Avançado";
+    document.getElementById("AvançadoJavaScript").innerText = "Avançado";
+    document.getElementById("AvançadoPython").innerText = "Avançado";
+    document.getElementById("AvançadoNode").innerText = "Avançado";
+    document.getElementById("AvançadoReact").innerText = "Avançado";
+    document.getElementById("AvançadoTypeScript").innerText = "Avançado";
+    document.getElementById("AvançadoSQL").innerText = "Avançado";
+    document.getElementById("AvançadoGitHub").innerText = "Avançado";
+    document.getElementById("AvançadoJava").innerText = "Avançado";
+
+
+    /*Techs translation end*/
+
 }
+
+
 
 function ingles() {
     document.getElementById("Portugues").classList.remove("language-changer-button")
@@ -95,6 +113,20 @@ function ingles() {
     document.getElementById("level-English").innerText = "Fluent";
     document.getElementById("level-Spanish").innerText = "Fluent";
     document.getElementById("level-French").innerText = "Fluent";    /*Languages translation end*/
+
+    /*Techs translation start*/
+    document.getElementById("AvançadoHTML").innerText = "Advanced";
+    document.getElementById("AvançadoCSS").innerText = "Advanced";
+    document.getElementById("AvançadoJavaScript").innerText = "Advanced";
+    document.getElementById("AvançadoPython").innerText = "Advanced";
+    document.getElementById("AvançadoNode").innerText = "Advanced";
+    document.getElementById("AvançadoReact").innerText = "Advanced";
+    document.getElementById("AvançadoTypeScript").innerText = "Advanced";
+    document.getElementById("AvançadoSQL").innerText = "Advanced";
+    document.getElementById("AvançadoGitHub").innerText = "Advanced";
+    document.getElementById("AvançadoJava").innerText = "Advanced";
+
+    /*Techs translation end*/
 
 }
 
