@@ -68,11 +68,16 @@ for (item of lang_items) {
 
 /* TECH LEVEL APPEARANCE START*/
 
+/* colocar um id pra cada um dos elementos da div, e criar uma var string que corta deixando só a variavel que quero */
+
+
 let tech_items = document.querySelectorAll(".tech-item");
 
 for (item of tech_items) {
   item.addEventListener("mouseover", function change(e) {
+    console.log(e.target.id)
     document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "animation: appear;")
+
     document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:1")
  });
 }
@@ -82,5 +87,7 @@ for (item of tech_items) {
     document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:0")
  });
 }
+
+
 
 /* TECH LEVEL APPEARANCE END*/
