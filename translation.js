@@ -59,13 +59,13 @@ function portugues() {
   document.getElementById("AvançadoHTML").innerText = "Avançado";
   document.getElementById("AvançadoCSS").innerText = "Avançado";
   document.getElementById("AvançadoJavaScript").innerText = "Avançado";
-  document.getElementById("AvançadoPython").innerText = "Avançado";
-  document.getElementById("AvançadoNode").innerText = "Avançado";
-  document.getElementById("AvançadoReact").innerText = "Avançado";
-  document.getElementById("AvançadoTypeScript").innerText = "Avançado";
+  document.getElementById("AvançadoPython").innerText = "Básico";
+  document.getElementById("AvançadoNode").innerText = "Básico";
+  document.getElementById("AvançadoReact").innerText = "Básico";
+  document.getElementById("AvançadoTypeScript").innerText = "Intermediário";
   document.getElementById("AvançadoSQL").innerText = "Avançado";
   document.getElementById("AvançadoGitHub").innerText = "Avançado";
-  document.getElementById("AvançadoJava").innerText = "Avançado";
+  document.getElementById("AvançadoJava").innerText = "Básico";
 
   /*Techs translation end*/
 }
@@ -129,13 +129,13 @@ function ingles() {
   document.getElementById("AvançadoHTML").innerText = "Advanced";
   document.getElementById("AvançadoCSS").innerText = "Advanced";
   document.getElementById("AvançadoJavaScript").innerText = "Advanced";
-  document.getElementById("AvançadoPython").innerText = "Advanced";
-  document.getElementById("AvançadoNode").innerText = "Advanced";
-  document.getElementById("AvançadoReact").innerText = "Advanced";
-  document.getElementById("AvançadoTypeScript").innerText = "Advanced";
+  document.getElementById("AvançadoPython").innerText = "Basic";
+  document.getElementById("AvançadoNode").innerText = "Basic";
+  document.getElementById("AvançadoReact").innerText = "Basic";
+  document.getElementById("AvançadoTypeScript").innerText = "Intermediate";
   document.getElementById("AvançadoSQL").innerText = "Advanced";
   document.getElementById("AvançadoGitHub").innerText = "Advanced";
-  document.getElementById("AvançadoJava").innerText = "Advanced";
+  document.getElementById("AvançadoJava").innerText = "Basic";
 
   /*Techs translation end*/
 }

@@ -64,3 +64,23 @@ for (item of lang_items) {
 /* LANGUAGE LEVEL APPEARANCE END*/
 
 /* --------------------------------------------------------------------------------------------------- */
+
+
+/* TECH LEVEL APPEARANCE START*/
+
+let tech_items = document.querySelectorAll(".tech-item");
+
+for (item of tech_items) {
+  item.addEventListener("mouseover", function change(e) {
+    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "animation: appear;")
+    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:1")
+ });
+}
+
+for (item of tech_items) {
+  item.addEventListener("mouseout", function change(e) {
+    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:0")
+ });
+}
+
+/* TECH LEVEL APPEARANCE END*/
