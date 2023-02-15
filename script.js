@@ -75,16 +75,21 @@ let tech_items = document.querySelectorAll(".tech-item");
 
 for (item of tech_items) {
   item.addEventListener("mouseover", function change(e) {
-    console.log(e.target.id)
-    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "animation: appear;")
 
-    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:1")
+    let endTag = e.target.id
+    let tagstring = endTag.split("-")[0]
+
+    document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "animation: appear;")
+
+    document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "opacity:1")
  });
 }
 
 for (item of tech_items) {
   item.addEventListener("mouseout", function change(e) {
-    document.getElementById(`Avançado${e.target.id}`).setAttribute("style", "opacity:0")
+    let endTag = e.target.id
+    let tagstring = endTag.split("-")[0]
+    document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "opacity:0")
  });
 }
 

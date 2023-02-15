@@ -211,6 +211,14 @@ body {
 
 /*EDUCATION START*/
 
+#Education{
+    color:white;
+    max-width: 1000px;
+    margin: auto;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
 
 .education {
     align-items: center;
@@ -220,7 +228,7 @@ body {
     justify-content: space-between;
     max-width: 1000px;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 30px;
     min-height: 200px;
     flex-wrap: wrap;
@@ -262,6 +270,15 @@ body {
 
 /*LANGUAGES START*/
 
+#Languages{
+    color:white;
+    max-width: 1000px;
+    margin: auto;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+
 .languages {
     align-items: center;
     color: white;
@@ -270,7 +287,7 @@ body {
     justify-content: space-between;
     max-width: 900px;
     margin: auto;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 30px;
     min-height: 200px;
     line-height: 25px;
@@ -314,6 +331,14 @@ body {
 
 /*TECHS START*/
 
+#Technical{
+    color:white;
+    max-width: 1000px;
+    margin: auto;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
 
 .techs {
     background-color: rgb(23, 28, 34);
@@ -326,7 +351,7 @@ body {
     color: white;
     justify-content: space-between;
     max-width: 1000px;
-    padding-top: 40px;
+    padding-top: 10px;
     padding-bottom: 40px;
     text-align: center;
     font-weight: bold;
@@ -361,6 +386,31 @@ body {
     box-sizing: border-box;
 }
 
-
-
 /*TECHS END*/
+
+
+
+/*PROJECTS START*/
+#Projects{
+    color:white;
+    max-width: 1000px;
+    margin: auto;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+/*PROJECTS END*/
+
+
+
+
+/*EXPERIENCE START*/
+#Experience{
+    color:white;
+    max-width: 1000px;
+    margin: auto;
+    padding-left:5px;
+    padding-top:20px;
+    padding-bottom:10px;
+}
+/*EXPERIENCE END*/

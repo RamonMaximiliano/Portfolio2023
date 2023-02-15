@@ -56,16 +56,16 @@ function portugues() {
   /*Languages translation end*/
 
   /*Techs translation start*/
-  document.getElementById("AvançadoHTML").innerText = "Avançado";
-  document.getElementById("AvançadoCSS").innerText = "Avançado";
-  document.getElementById("AvançadoJavaScript").innerText = "Avançado";
-  document.getElementById("AvançadoPython").innerText = "Básico";
-  document.getElementById("AvançadoNode").innerText = "Básico";
-  document.getElementById("AvançadoReact").innerText = "Básico";
-  document.getElementById("AvançadoTypeScript").innerText = "Intermediário";
-  document.getElementById("AvançadoSQL").innerText = "Avançado";
-  document.getElementById("AvançadoGitHub").innerText = "Avançado";
-  document.getElementById("AvançadoJava").innerText = "Básico";
+  document.getElementById("HTML-Avançado").innerText = "Avançado";
+  document.getElementById("CSS-Avançado").innerText = "Avançado";
+  document.getElementById("JavaScript-Avançado").innerText = "Avançado";
+  document.getElementById("Python-Avançado").innerText = "Básico";
+  document.getElementById("Node-Avançado").innerText = "Básico";
+  document.getElementById("React-Avançado").innerText = "Básico";
+  document.getElementById("TypeScript-Avançado").innerText = "Intermediário";
+  document.getElementById("SQL-Avançado").innerText = "Avançado";
+  document.getElementById("GitHub-Avançado").innerText = "Avançado";
+  document.getElementById("Java-Avançado").innerText = "Básico";
 
   /*Techs translation end*/
 }
@@ -126,17 +126,16 @@ function ingles() {
     "Fluent"; /*Languages translation end*/
 
   /*Techs translation start*/
-  document.getElementById("AvançadoHTML").innerText = "Advanced";
-  document.getElementById("AvançadoCSS").innerText = "Advanced";
-  document.getElementById("AvançadoJavaScript").innerText = "Advanced";
-  document.getElementById("AvançadoPython").innerText = "Basic";
-  document.getElementById("AvançadoNode").innerText = "Basic";
-  document.getElementById("AvançadoReact").innerText = "Basic";
-  document.getElementById("AvançadoTypeScript").innerText = "Intermediate";
-  document.getElementById("AvançadoSQL").innerText = "Advanced";
-  document.getElementById("AvançadoGitHub").innerText = "Advanced";
-  document.getElementById("AvançadoJava").innerText = "Basic";
-
+  document.getElementById("HTML-Avançado").innerText = "Advanced";
+  document.getElementById("CSS-Avançado").innerText = "Advanced";
+  document.getElementById("JavaScript-Avançado").innerText = "Advanced";
+  document.getElementById("Python-Avançado").innerText = "Basic";
+  document.getElementById("Node-Avançado").innerText = "Basic";
+  document.getElementById("React-Avançado").innerText = "Basic";
+  document.getElementById("TypeScript-Avançado").innerText = "Intermediate";
+  document.getElementById("SQL-Avançado").innerText = "Advanced";
+  document.getElementById("GitHub-Avançado").innerText = "Advanced";
+  document.getElementById("Java-Avançado").innerText = "Basic";
   /*Techs translation end*/
 }
 
