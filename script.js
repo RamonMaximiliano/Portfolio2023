@@ -96,3 +96,18 @@ for (item of tech_items) {
 
 
 /* TECH LEVEL APPEARANCE END*/
+
+
+
+
+/*
+
+https://www.youtube.com/watch?v=7HPsdVQhpRw&ab_channel=CodingNepal
+
+https://www.youtube.com/watch?v=JX5qDzWDF4U&ab_channel=CodeInstinct
+
+https://www.youtube.com/watch?v=JOdpkAJVub0&ab_channel=CodingLab
+
+https://www.youtube.com/watch?v=qOO6lVMhmGc&ab_channel=CodingLab
+
+*/
