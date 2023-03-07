@@ -454,41 +454,57 @@ body {
 
 .carrousel-card1{
     background-color:green;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
 }
 .carrousel-card2{
     background-color:blue;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
 }
 .carrousel-card3{
     background-color:yellow;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
+
 }
 .carrousel-card4{
     background-color:red;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
+
 }
 .carrousel-card5{
     background-color:purple;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
+
 }
 .carrousel-card6{
     background-color:black;
-    min-width:500px;
+    min-width:200px;
     height:200px;
+    margin-right:50px;
+
 }
 .carrousel{
     display:flex;
     width:100%;
     justify-content: space-between;
-    overflow:hidden;
-}
+    overflow: hidden;
+ }
 
+
+.wrapper{
+    max-width: 1000px;
+    min-height: 150px;
+    margin: auto;
+}
 
 /*PROJECTS END*/
 
@@ -499,11 +515,13 @@ body {
     align-items: center;
     display: flex;
     justify-content:space-between;
-    width: 100%;
+    width: 1000px;
+    margin: auto;
     min-height: 50px;
     margin-top:80px;
-    padding-right:20%;
-    padding-left:20%;
+    padding-right:5%;
+    padding-left:5%;
+
 }
 
 

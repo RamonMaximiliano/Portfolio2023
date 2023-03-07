@@ -97,6 +97,35 @@ for (item of tech_items) {
 
 /* TECH LEVEL APPEARANCE END*/
 
+/*CARD SLIDER START*/
+
+
+
+
+
+/*CARD SLIDER END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
