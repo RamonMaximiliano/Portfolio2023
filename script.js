@@ -136,7 +136,6 @@ for (item of tech_items) {
 
 https://www.youtube.com/watch?v=7HPsdVQhpRw&ab_channel=CodingNepal
 
-https://www.youtube.com/watch?v=JX5qDzWDF4U&ab_channel=CodeInstinct
 
 https://www.youtube.com/watch?v=JOdpkAJVub0&ab_channel=CodingLab
 

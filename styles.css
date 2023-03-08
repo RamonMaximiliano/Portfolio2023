@@ -240,6 +240,7 @@ body {
 
 .education-div {
     background-color: rgb(23, 28, 34);
+    margin-top:250px;
 }
 
 
@@ -454,56 +455,59 @@ body {
 
 .carrousel-card1{
     background-color:green;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
+    margin-right:30px;
 }
 .carrousel-card2{
     background-color:blue;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
+    margin-right:30px;
 }
 .carrousel-card3{
     background-color:yellow;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
+    margin-right:30px;
 
 }
 .carrousel-card4{
     background-color:red;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
+    margin-right:30px;
 
 }
 .carrousel-card5{
     background-color:purple;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
+    margin-right:30px;
 
 }
 .carrousel-card6{
     background-color:black;
-    min-width:200px;
+    min-width: calc(100%/3);
     height:200px;
-    margin-right:50px;
-
+    margin-right:30px;
 }
-.carrousel{
-    display:flex;
-    width:100%;
-    justify-content: space-between;
-    overflow: hidden;
- }
 
+.cardItem:first-child{
+    margin-left:-2%;
+}
+
+.carrousel{
+    max-width:1200px;
+    display:flex;
+    overflow:hidden;
+    margin-right:10px;
+    margin-left:10px;
+}
 
 .wrapper{
-    max-width: 1000px;
-    min-height: 150px;
-    margin: auto;
+  max-width:1200px;
+  margin:auto;
 }
 
 /*PROJECTS END*/
@@ -511,20 +515,16 @@ body {
 /*PROJECTS ARROWS START*/
 
 .arrows{
-    position:absolute;
     align-items: center;
     display: flex;
     justify-content:space-between;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     min-height: 50px;
-    margin-top:80px;
+    margin-top:-150px;
     padding-right:5%;
     padding-left:5%;
-
 }
-
-
 
 .arrows img{ 
     width:30px;
