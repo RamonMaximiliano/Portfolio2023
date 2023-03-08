@@ -4,6 +4,9 @@ https://portfolio-gsj.vercel.app/index.html#habilidades
 
 https://ramonmaximiliano.github.io/Portfolio/
 
+
+- Add "have fun area" with turn over card for the game projects
+
 */
 
 /* PROFILE DATA FETCH API START*/
