@@ -453,12 +453,30 @@ body {
 
 /*PROJECTS START*/
 
-.carrousel-card1{
+.projects-card{
+    min-width: calc(100%/3);
+    min-height:300px;
+    margin-right:30px;
+    background-color:green;
+}
+.projects-card img{
+    
+}
+
+
+
+
+
+
+/* .carrousel-card1{
     background-color:green;
     min-width: calc(100%/3);
-    height:200px;
+    height:300px;
     margin-right:30px;
-}
+} */
+
+
+
 .carrousel-card2{
     background-color:blue;
     min-width: calc(100%/3);
