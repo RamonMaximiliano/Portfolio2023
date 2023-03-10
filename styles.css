@@ -455,17 +455,23 @@ body {
 
 .projects-card{
     min-width: calc(100%/3);
-    min-height:300px;
+    min-height:600px;
     margin-right:30px;
     background-color:green;
 }
-.projects-card img{
-    
+
+.project1{
+    margin-top:10px;
+    background: url("images/card-images/15projects-calculator.JPG");
+    min-width:100%;
+    min-height:100%;
+    background-size:contain;
+    background-repeat: no-repeat;
 }
 
-
-
-
+/* 
+src="./images/card-images/orphanage.JPG"
+ */
 
 
 /* .carrousel-card1{
