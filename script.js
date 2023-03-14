@@ -6,6 +6,7 @@ https://ramonmaximiliano.github.io/Portfolio/
 
 
 - Add "have fun area" with turn over card for the game projects
+- Make header menu fixed position
 
 */
 
@@ -71,8 +72,6 @@ for (item of lang_items) {
 
 /* TECH LEVEL APPEARANCE START*/
 
-/* colocar um id pra cada um dos elementos da div, e criar uma var string que corta deixando só a variavel que quero */
-
 
 let tech_items = document.querySelectorAll(".tech-item");
 
@@ -100,34 +99,58 @@ for (item of tech_items) {
 
 /* TECH LEVEL APPEARANCE END*/
 
+
+
+
 /*CARD SLIDER START*/
+
+var stepLeft = 1
+var stepRight = 1
+
+function left(){
+  let Leftarrow = document.getElementById("slider");
+
+  if(stepLeft == 1){
+    Leftarrow.setAttribute("style", "margin-left: -34%;");
+    stepLeft = 2
+
+  } else if(stepLeft == 2){
+    Leftarrow.setAttribute("style", "margin-left: -68%;");
+    stepLeft = 3
+
+  } else if(stepLeft == 3){
+    Leftarrow.setAttribute("style", "margin-left: -102%;");
+    stepLeft = 4
+  } 
+}
+
+/* Pegar margem atual e adicionar ou diminuir conforme valor atual
+ */
+
+
+function right(){
+  let Leftarrow = document.getElementById("slider");
+
+  if(stepRight == 1){
+    Leftarrow.setAttribute("style", "margin-left: 34%;");
+    stepRight = 2
+
+  } else if(stepRight == 2){
+    Leftarrow.setAttribute("style", "margin-left: 68%;");
+    stepRight = 3
+
+  } else if(stepRight == 3){
+    Leftarrow.setAttribute("style", "margin-left: 102%;");
+    stepRight = 4
+  }
+}
+
 
 
 
 
 
 /*CARD SLIDER END*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
