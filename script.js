@@ -104,45 +104,46 @@ for (item of tech_items) {
 
 /*CARD SLIDER START*/
 
-var stepLeft = 1
-var stepRight = 1
+var stepLeft = 0
+var stepRight = 0
 
-function left(){
-  let Leftarrow = document.getElementById("slider");
+function right(){
+  let firstCard = document.getElementById("slider");
 
-  if(stepLeft == 1){
-    Leftarrow.setAttribute("style", "margin-left: -34%;");
-    stepLeft = 2
-
+  if(stepLeft == 0){
+    firstCard.setAttribute("style", "margin-left: -34%;");
+    stepLeft = 1
+    stepRight = 1
+  } else if(stepLeft == 1){
+    firstCard.setAttribute("style", "margin-left: -68%;");
   } else if(stepLeft == 2){
-    Leftarrow.setAttribute("style", "margin-left: -68%;");
-    stepLeft = 3
-
-  } else if(stepLeft == 3){
-    Leftarrow.setAttribute("style", "margin-left: -102%;");
-    stepLeft = 4
+    firstCard.setAttribute("style", "margin-left: -102%;");
   } 
+  console.log(stepLeft, stepRight)
 }
 
 /* Pegar margem atual e adicionar ou diminuir conforme valor atual
  */
 
 
-function right(){
-  let Leftarrow = document.getElementById("slider");
-
+function left(){
+  let firstCard = document.getElementById("slider");
   if(stepRight == 1){
-    Leftarrow.setAttribute("style", "margin-left: 34%;");
-    stepRight = 2
-
+    firstCard.setAttribute("style", "margin-left: 0%;");
+    stepLeft = 0
+    stepRight = 0
+  } else if(stepRight == 1){
+    firstCard.setAttribute("style", "margin-left: -34%;");
   } else if(stepRight == 2){
-    Leftarrow.setAttribute("style", "margin-left: 68%;");
-    stepRight = 3
+    firstCard.setAttribute("style", "margin-left: -68%;");
+  } 
 
-  } else if(stepRight == 3){
-    Leftarrow.setAttribute("style", "margin-left: 102%;");
-    stepRight = 4
-  }
+
+
+
+
+  console.log(stepLeft, stepRight)
+
 }
 
 
