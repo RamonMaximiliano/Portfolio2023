@@ -140,6 +140,22 @@ function left(){
 
 /*CARD SLIDER END*/
 
+
+function cardeffectOn(x){
+  x.style.transition = "all 0.4s";
+  x.style.border = "3px solid rgb(0, 189, 149)";
+  x.style.boxShadow = "none";
+  x.style.scale = "1.01";
+}
+
+function cardeffectOff(x){
+  x.style.border = "3px solid transparent";
+  x.style.boxShadow = "1px 1px 5px 1px black";
+  x.style.scale = "1";
+}
+
+
+
 /*
 
 https://www.youtube.com/watch?v=7HPsdVQhpRw&ab_channel=CodingNepal
