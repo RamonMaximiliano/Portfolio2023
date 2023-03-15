@@ -103,63 +103,46 @@ for (item of tech_items) {
 
 
 /*CARD SLIDER START*/
-
-var stepLeft = 0
-var stepRight = 0
+var step = 0
 
 function right(){
   let firstCard = document.getElementById("slider");
-
-  if(stepLeft == 0){
+  if(step == 0){
     firstCard.setAttribute("style", "margin-left: -34%;");
-    stepLeft = 1
-    stepRight = 1
-  } else if(stepLeft == 1){
+    step = 1
+  } else if(step == 1){
     firstCard.setAttribute("style", "margin-left: -68%;");
-  } else if(stepLeft == 2){
+    step = 2
+  } else if(step == 2){
     firstCard.setAttribute("style", "margin-left: -102%;");
+    step = 3
   } 
-  console.log(stepLeft, stepRight)
+  console.log(step)
 }
 
 /* Pegar margem atual e adicionar ou diminuir conforme valor atual
- */
-
+*/
 
 function left(){
   let firstCard = document.getElementById("slider");
-  if(stepRight == 1){
+  if(step == 1){
     firstCard.setAttribute("style", "margin-left: 0%;");
-    stepLeft = 0
-    stepRight = 0
-  } else if(stepRight == 1){
+    step = 0
+  } else if(step == 2){
     firstCard.setAttribute("style", "margin-left: -34%;");
-  } else if(stepRight == 2){
+    step = 1
+  } else if(step == 3){
     firstCard.setAttribute("style", "margin-left: -68%;");
-  } 
-
-
-
-
-
-  console.log(stepLeft, stepRight)
-
+    step = 2
+  }
+  console.log(step)
 }
 
-
-
-
-
-
 /*CARD SLIDER END*/
-
-
-
 
 /*
 
 https://www.youtube.com/watch?v=7HPsdVQhpRw&ab_channel=CodingNepal
-
 
 https://www.youtube.com/watch?v=JOdpkAJVub0&ab_channel=CodingLab
 
