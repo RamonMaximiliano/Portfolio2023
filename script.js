@@ -4,11 +4,14 @@ https://portfolio-gsj.vercel.app/index.html#habilidades
 
 https://ramonmaximiliano.github.io/Portfolio/
 
-
 - Add "have fun area" with turn over card for the game projects
 - Make header menu fixed position
+- Make hover effect on project cards that will color them when hovering
 
 */
+
+
+
 
 /* PROFILE DATA FETCH API START*/
 
@@ -153,15 +156,3 @@ function cardeffectOff(x){
   x.style.boxShadow = "1px 1px 5px 1px black";
   x.style.scale = "1";
 }
-
-
-
-/*
-
-https://www.youtube.com/watch?v=7HPsdVQhpRw&ab_channel=CodingNepal
-
-https://www.youtube.com/watch?v=JOdpkAJVub0&ab_channel=CodingLab
-
-https://www.youtube.com/watch?v=qOO6lVMhmGc&ab_channel=CodingLab
-
-*/
