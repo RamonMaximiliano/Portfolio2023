@@ -120,7 +120,6 @@ function right(){
     firstCard.setAttribute("style", "margin-left: -102%;");
     step = 3
   } 
-  console.log(step)
 }
 
 /* Pegar margem atual e adicionar ou diminuir conforme valor atual
@@ -138,7 +137,6 @@ function left(){
     firstCard.setAttribute("style", "margin-left: -68%;");
     step = 2
   }
-  console.log(step)
 }
 
 /*CARD SLIDER END*/
@@ -149,10 +147,18 @@ function cardeffectOn(x){
   x.style.border = "3px solid rgb(0, 189, 149)";
   x.style.boxShadow = "none";
   x.style.scale = "1.01";
+  console.log(x)
 }
 
 function cardeffectOff(x){
   x.style.border = "3px solid transparent";
   x.style.boxShadow = "1px 1px 5px 1px black";
   x.style.scale = "1";
+  var img = x.querySelector('img');
+  console.log(img)
 }
+
+
+
+
+
