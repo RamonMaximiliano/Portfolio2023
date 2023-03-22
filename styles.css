@@ -478,6 +478,7 @@ body {
     filter:grayscale(100%)
 }
 
+
 .project-content {
     padding: 15px;
     color: white;
@@ -526,8 +527,6 @@ body {
     margin-top: -280px;
     padding-right: 5%;
     padding-left: 5%;
-    z-index: 1;
-    position: relative;
 }
 
 .arrows img {
@@ -539,6 +538,8 @@ body {
     border-radius: 50%;
     cursor: pointer;
     transition: all 0.2s;
+    z-index: 1;
+    position: relative;
 }
 
 .arrows img:hover {

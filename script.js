@@ -6,11 +6,8 @@ https://ramonmaximiliano.github.io/Portfolio/
 
 - Add "have fun area" with turn over card for the game projects
 - Make header menu fixed position
-- Make hover effect on project cards that will color them when hovering
 
 */
-
-
 
 
 /* PROFILE DATA FETCH API START*/
@@ -143,19 +140,24 @@ function left(){
 
 
 function cardeffectOn(x){
-  x.style.transition = "all 0.4s";
+  x.style.transition = "all 0.5s";
   x.style.border = "3px solid rgb(0, 189, 149)";
   x.style.boxShadow = "none";
-  x.style.scale = "1.01";
-  console.log(x)
+/*   x.style.scale = "1.01";
+ */  let img = x.querySelector('img');
+  let title = x.querySelectorAll('h2')[1];
+  img.setAttribute("style", "filter: grayscale(0%)");
+  title.setAttribute("style", "color: rgb(0, 189, 149)");
 }
 
 function cardeffectOff(x){
   x.style.border = "3px solid transparent";
   x.style.boxShadow = "1px 1px 5px 1px black";
-  x.style.scale = "1";
-  var img = x.querySelector('img');
-  console.log(img)
+/*   x.style.scale = "1";
+ */  let img = x.querySelector('img');
+  let title = x.querySelectorAll('h2')[1];
+  img.setAttribute("style", "filter: grayscale(100%)");
+  title.setAttribute("style", "color: white");
 }
 
 
