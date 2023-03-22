@@ -7,6 +7,12 @@ https://ramonmaximiliano.github.io/Portfolio/
 - Add "have fun area" with turn over card for the game projects
 - Make header menu fixed position
 - Make it mobile responsive
+
+- Make Mario game to add to projects:
+https://www.youtube.com/watch?v=r9buAwVBDhA&t=1182s&ab_channel=ManualdoDev
+
+
+
 */
 
 
