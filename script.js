@@ -6,7 +6,7 @@ https://ramonmaximiliano.github.io/Portfolio/
 
 - Add "have fun area" with turn over card for the game projects
 - Make header menu fixed position
-
+- Make it mobile responsive
 */
 
 
@@ -84,7 +84,7 @@ for (item of tech_items) {
     document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "animation: appear;")
 
     document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "opacity:1")
- });
+  });
 }
 
 for (item of tech_items) {
@@ -92,7 +92,7 @@ for (item of tech_items) {
     let endTag = e.target.id
     let tagstring = endTag.split("-")[0]
     document.getElementById(`${tagstring}-Avançado`).setAttribute("style", "opacity:0")
- });
+  });
 }
 
 
@@ -105,32 +105,32 @@ for (item of tech_items) {
 /*CARD SLIDER START*/
 var step = 0
 
-function right(){
+function right() {
   let firstCard = document.getElementById("slider");
-  if(step == 0){
+  if (step == 0) {
     firstCard.setAttribute("style", "margin-left: -34%;");
     step = 1
-  } else if(step == 1){
+  } else if (step == 1) {
     firstCard.setAttribute("style", "margin-left: -68%;");
     step = 2
-  } else if(step == 2){
+  } else if (step == 2) {
     firstCard.setAttribute("style", "margin-left: -102%;");
     step = 3
-  } 
+  }
 }
 
 /* Pegar margem atual e adicionar ou diminuir conforme valor atual
 */
 
-function left(){
+function left() {
   let firstCard = document.getElementById("slider");
-  if(step == 1){
+  if (step == 1) {
     firstCard.setAttribute("style", "margin-left: 0%;");
     step = 0
-  } else if(step == 2){
+  } else if (step == 2) {
     firstCard.setAttribute("style", "margin-left: -34%;");
     step = 1
-  } else if(step == 3){
+  } else if (step == 3) {
     firstCard.setAttribute("style", "margin-left: -68%;");
     step = 2
   }
@@ -139,7 +139,7 @@ function left(){
 /*CARD SLIDER END*/
 
 
-function cardeffectOn(x){
+function cardeffectOn(x) {
   x.style.transition = "all 0.5s";
   x.style.border = "3px solid rgb(0, 189, 149)";
   x.style.boxShadow = "none";
@@ -150,7 +150,7 @@ function cardeffectOn(x){
   title.setAttribute("style", "color: rgb(0, 189, 149)");
 }
 
-function cardeffectOff(x){
+function cardeffectOff(x) {
   x.style.border = "3px solid transparent";
   x.style.boxShadow = "1px 1px 5px 1px black";
 /*   x.style.scale = "1";
