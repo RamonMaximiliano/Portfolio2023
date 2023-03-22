@@ -16,4 +16,4 @@ Version 2023 of the Portffolio project
 Link to the project:
 https://ramonmaximiliano.github.io/Portfolio2023/
 
-![My Image](orphanage.JPG)
+![My Image](portfolio.JPG)
