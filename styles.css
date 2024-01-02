@@ -77,6 +77,20 @@ body {
     background-color: rgb(6, 134, 107) !important;
 }
 
+.list-item-anchor{
+text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.2s all;
+    color:white;
+}
+
+.list-item-anchor:hover {
+    color: rgb(0, 189, 149);
+    cursor: pointer;
+}
+
 /* HEADER END*/
 
 /* PROFILE START*/
