@@ -165,7 +165,15 @@ function cardeffectOff(x) {
   title.setAttribute("style", "color: white");
 }
 
+ window.onscroll = function() {scrolling()};
+    function scrolling() {
+      if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+        document.getElementById("arrow-up").style.marginLeft = "90%";
+      } else {
+        document.getElementById("arrow-up").style.marginLeft = "100%";
+      }
+    }
 
-
-
-
+function pagetop(){
+  window.scrollTo(0, 0);
+}

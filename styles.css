@@ -561,3 +561,33 @@ text-decoration: none;
 }
 
 /*PROJECTS ARROWS END*/
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+#arrow-up{
+    text-align: center;
+    top:50%;
+    margin-left:100%;
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    padding-top:10px;
+    position: fixed;
+    z-index: 2;
+    transition: all 0.5s;
+    cursor:pointer;
+    opacity: 0.5;
+}
+
+#arrow-up:hover{
+    opacity: 1;
+    scale: 1.3;
+}
+
