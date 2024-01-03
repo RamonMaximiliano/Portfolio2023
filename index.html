@@ -13,9 +13,9 @@
     <header class="main-header">
         <h1 class="main-title">Portfólio</h1>
         <ul class="main-list">
-            <li class="list-item" id="Sobre"><a class="list-item-anchor" href="#Profile_name">Sobre</a></li>
-            <li class="list-item" id="Projetos"><a class="list-item-anchor"  href="#Projects">Projetos</a></li>
-            <li class="list-item" id="Curriculo"><a  class="list-item-anchor" target="_blank" href="/EnglishCV.pdf">Currículo</a></li>
+            <li class="list-item" ><a class="list-item-anchor" href="#Profile_name" id="Sobre">Sobre</a></li>
+            <li class="list-item" ><a class="list-item-anchor"  href="#Projects" id="Projetos">Projetos</a></li>
+            <li class="list-item" ><a  class="list-item-anchor" target="_blank" href="/EnglishCV.pdf" id="Curriculo">Currículo</a></li>
         </ul>
         <div class="language-changer">
             <button class="language-changer-button" id="Portugues" onclick="portugues()">Português</button>
@@ -55,11 +55,19 @@
     <div>
         <h2 id="Projects">Projetos</h2>
     </div>
-
-
     <div>
         <div class="wrapper">
             <div class="carrousel">
+                <a href="https://ramonmaximiliano.github.io/e-commerce-react/" target="_blank"
+                    title="Check this project" class="projects-card" id="slider" onmouseenter="cardeffectOn(this)"
+                    onmouseleave="cardeffectOff(this)">
+                    <img src="images/card-images/react-e-commerce.jpg">
+                    <div class="project-content">
+                        <h2 id="project7-title">E-Commerce-React</h2>
+                        <h2>Html - Css - JavaScript - React - TypeScript</h2>
+                        <p id="project7-text">Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato.</p>
+                    </div>
+                </a>
                 <a href="https://ramonmaximiliano.github.io/nlw-03-orphanage-front-end/" target="_blank"
                     title="Check this project" class="projects-card" id="slider" onmouseenter="cardeffectOn(this)"
                     onmouseleave="cardeffectOff(this)">
@@ -70,9 +78,7 @@
                         <p id="project1-text">Projeto NLW da RocketSeat, esta é somente a versão front-end do projeto
                             usando uma API de mapas.</p>
                     </div>
-
                 </a>
-
                 <a href="https://ramonmaximiliano.github.io/kyle-shopping-cart/" target="_blank"
                     title="Check this project" class="projects-card" onmouseover="cardeffectOn(this)"
                     onmouseleave="cardeffectOff(this)">
@@ -355,8 +361,6 @@
 
             </div>
         </div>
-
-
         <footer class="footer profile-main">
 
             <div class="footer-title">
@@ -388,10 +392,7 @@
     
 - Tradução professional experience 
 - Responsividade 
-- Adicionar projetos novos
-- Link curriculo menu 
 - Add a button to go to the top of the page 
-
 
  -->
 

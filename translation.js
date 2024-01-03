@@ -94,6 +94,9 @@ function portugues() {
   document.getElementById("project6-title").innerText = "Lista de tarefas JavaScript";
   document.getElementById("project6-text").innerText = "Uma simples lista de tarefas com JavaScript. Você pode criar, deletar, marcar a tarefa como finalizada ao dar um duplo clique nela, limpar a sua lista de tarefas, alertas para tarefa repetida e quando o usuário tenta adicionar uma tarefa duplicada"
 
+  document.getElementById("project7-title").innerText = "E-Commerce-React";
+  document.getElementById("project7-text").innerText = "Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato."
+
   /*Projects translation end*/
 
 
@@ -195,6 +198,9 @@ function ingles() {
 
   document.getElementById("project6-title").innerText = "JavaScript To Do List";
   document.getElementById("project6-text").innerText = "One simple 'to do' App with vanilla JavaScript. You can: Create task, delete task, mark a task as completed by double clicking it, clean entire list of tasks, warnings for repeated task, warning when the user tries to add empty task"
+
+  document.getElementById("project7-title").innerText = "E-Commerce-React";
+  document.getElementById("project7-text").innerText = "A React e-commerce project for practicing, featuring product pages, a shopping cart, a carousel (without the use of external libraries), and a contact page."
 
 
   /*Projects translation end*/
