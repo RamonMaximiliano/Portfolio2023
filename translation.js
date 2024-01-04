@@ -101,13 +101,36 @@ function portugues() {
 
 
 
-  /*Professional exp translation start*/
+   /*Professional exp translation start*/
+   document.getElementById("Experience").innerText = "Experiência Profissional";
+   document.getElementById("exp-title1").innerText = "Engenheiro de Suporte";
+   document.getElementById("exp-period1").innerText = "Janeiro de 2023 - Atual";
+   document.getElementById("exp-descrip1").innerText = "Suporte ao cliente via telefone, e-mails para TMS, um sistema informatizado de gerenciamento de manutenção para a área da saúde.";
+ 
+   document.getElementById("exp-title2").innerText = "Engenheiro de Suporte";
+   document.getElementById("exp-period2").innerText = "Julho de 2019 - Novembro de 2022";
+   document.getElementById("exp-descrip2").innerText = "Suporte ao cliente via telefone, e-mails e chat para a área de despesas da plataforma Concur.";
+ 
+   document.getElementById("exp-title3").innerText = "Engenheiro de Suporte";
+   document.getElementById("exp-period3").innerText = "Maio de 2018 - Novembro de 2018";
+   document.getElementById("exp-descrip3").innerText = "Suporte ao cliente via telefone, chat e service desk de sistema, suporte de hardware e software para notebooks e desktops.";
+ 
+   document.getElementById("exp-title4").innerText = "Analista de Implementação de Sistemas";
+   document.getElementById("exp-period4").innerText = "Fevereiro de 2016 – Agosto de 2017";
+   document.getElementById("exp-descrip4").innerText = "Implementação de sistemas para clientes, conduzindo a implementação em distribuidores e acompanhamento de processos com contratantes de sistemas industriais.";
+ 
+   document.getElementById("exp-title5").innerText = "Engenheiro de Suporte";
+   document.getElementById("exp-period5").innerText = "Setembro de 2014 - Fevereiro de 2015";
+   document.getElementById("exp-descrip5").innerText = "Suporte no service desk para clientes estrangeiros (americanos, canadenses) via telefone, e-mail e web.";
+ 
+   document.getElementById("exp-title6").innerText = "Professor de Inglês"
+   document.getElementById("exp-period6").innerText = "Janeiro de 2012 - Presente";
+   document.getElementById("exp-descrip6").innerText = "Professor de inglês em escolas de idiomas particulares, ensinando inglês para turmas de adolescentes e adultos em níveis avançado, intermediário e iniciante. Também leciono em aulas particulares.";
+ 
   /*Professional exp translation end*/
-
-
-
-
 }
+
+
 
 function ingles() {
   document
@@ -208,6 +231,31 @@ function ingles() {
 
 
   /*Professional exp translation start*/
+  document.getElementById("Experience").innerText = "Professional Experience";
+  document.getElementById("exp-title1").innerText = "Support Engineer";
+  document.getElementById("exp-period1").innerText = "January 2023 - Current";
+  document.getElementById("exp-descrip1").innerText = "Customer support via phone, emails to TMS, a computerized maintenance management system for healthcare.";
+
+  document.getElementById("exp-title2").innerText = "Support Engineer";
+  document.getElementById("exp-period2").innerText = "July 2019 - November 2022";
+  document.getElementById("exp-descrip2").innerText = "Customer support via phone, emails and chat to expense area of the Concur platform.";
+
+  document.getElementById("exp-title3").innerText = "Support Engineer";
+  document.getElementById("exp-period3").innerText = "May 2018 - November 2018";
+  document.getElementById("exp-descrip3").innerText = "Customer support via phone, chat and system service desk, hardware and software support for notebooks, desktops.";
+
+  document.getElementById("exp-title4").innerText = "System implementation analyst";
+  document.getElementById("exp-period4").innerText = "February 2016 – August 2017";
+  document.getElementById("exp-descrip4").innerText = "Implementation of customer systems, driving implementation in distributors and follow up of processes with industry system contractor.";
+
+  document.getElementById("exp-title5").innerText = "Support Engineer";
+  document.getElementById("exp-period5").innerText = "September 2014 - February 2015";
+  document.getElementById("exp-descrip5").innerText = "Service desk support for foreign customers (Americans, Canadians) via phone, e-mail and web.";
+
+  document.getElementById("exp-title6").innerText = "English teacher"
+  document.getElementById("exp-period6").innerText = "January 2012 - Present";
+  document.getElementById("exp-descrip6").innerText = "Part time English teacher in private language schools, teach English for classes of teenagers and adults to advanced, intermediate and beginner levels. Also teacher in private classes.";
+
   /*Professional exp translation end*/
 
 }
