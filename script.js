@@ -168,7 +168,7 @@ function cardeffectOff(x) {
  window.onscroll = function() {scrolling()};
     function scrolling() {
       if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
-        document.getElementById("arrow-up").style.marginLeft = "90%";
+        document.getElementById("arrow-up").style.marginLeft = "85%";
       } else {
         document.getElementById("arrow-up").style.marginLeft = "100%";
       }
