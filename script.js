@@ -105,45 +105,6 @@ for (item of tech_items) {
 /* TECH LEVEL APPEARANCE END*/
 
 
-
-
-/*CARD SLIDER START*/
-var step = 0
-
-function right() {
-  let firstCard = document.getElementById("slider");
-  if (step == 0) {
-    firstCard.setAttribute("style", "margin-left: -34%;");
-    step = 1
-  } else if (step == 1) {
-    firstCard.setAttribute("style", "margin-left: -68%;");
-    step = 2
-  } else if (step == 2) {
-    firstCard.setAttribute("style", "margin-left: -102%;");
-    step = 3
-  }
-}
-
-/* Pegar margem atual e adicionar ou diminuir conforme valor atual
-*/
-
-function left() {
-  let firstCard = document.getElementById("slider");
-  if (step == 1) {
-    firstCard.setAttribute("style", "margin-left: 0%;");
-    step = 0
-  } else if (step == 2) {
-    firstCard.setAttribute("style", "margin-left: -34%;");
-    step = 1
-  } else if (step == 3) {
-    firstCard.setAttribute("style", "margin-left: -68%;");
-    step = 2
-  }
-}
-
-/*CARD SLIDER END*/
-
-
 function cardeffectOn(x) {
   x.style.transition = "all 0.5s";
   x.style.border = "3px solid rgb(0, 189, 149)";
