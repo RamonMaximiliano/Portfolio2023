@@ -71,8 +71,6 @@ function portugues() {
   /*Techs translation end*/
 
 
-
-
   /*Projects translation start*/
   document.getElementById("Projects").innerText = "Projetos";
   document.getElementById("project1-title").innerText = "NLW 03 - Orfanato - Front-end";
@@ -133,8 +131,7 @@ function portugues() {
 
 
 function ingles() {
-  document
-    .getElementById("Portugues")
+  document.getElementById("Portugues")
     .classList.remove("language-changer-button");
   document.getElementById("Ingles").classList.add("language-changer-button");
 
@@ -227,7 +224,6 @@ function ingles() {
 
 
   /*Projects translation end*/
-
 
 
   /*Professional exp translation start*/

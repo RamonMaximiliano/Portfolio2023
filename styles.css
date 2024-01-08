@@ -474,7 +474,7 @@ text-decoration: none;
 
 .projects-card {
     width: 290px;
-    height: 500px;
+    height: 510px;
     background-color: rgb(23, 28, 34);
     text-decoration: none;
     border-radius: 25px;
@@ -483,6 +483,8 @@ text-decoration: none;
     box-sizing: border-box;
     border: 3px solid transparent;
     box-shadow: 1px 1px 5px 1px black;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .projects-card img {
@@ -520,43 +522,6 @@ text-decoration: none;
     text-align: center;
     flex-wrap: wrap;
 }
-
-.projects-link{
-    width:250px;
-    padding-top:30px;
-    margin: auto;
-}
-.projects-link a{
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-}
-.projects-link a:hover{
-    text-decoration: underline;
-}
-
-.home-link{
-    width:250px;
-    margin: auto;
-    padding-top:30px;
-}
-.home-link a{
-    text-decoration: none;
-    color:white;
-    font-size: 20px;
-}
-.home-link a:hover{
-    text-decoration: underline;
-}
-
-.projects-card:first-child {
-    margin-left: 0%;
-}
-
-#slider {
-    transition: margin-left 1s;
-}
-
 
 .projects-container{
     margin-top: 30px;
