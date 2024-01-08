@@ -80,9 +80,6 @@ function portugues() {
   document.getElementById("project2-title").innerText = "Carrinho de compras";
   document.getElementById("project2-text").innerText = "Um projeto simples de carrinho de compras para praticar: React, Context API, React Router, TypeScript e um pouco de CSS";
 
-  document.getElementById("project3-title").innerText = "Galeria de fotos";
-  document.getElementById("project3-text").innerText = "Projeto de galeria de fotos para praticar: React Router and Context API";
-
   document.getElementById("project4-title").innerText = "Multiformulário React";
   document.getElementById("project4-text").innerText = "Multiformulário com React e Typescript para praticar React Router e Context API. Também usa a API do GitHub para buscar dados";
 
@@ -206,9 +203,6 @@ function ingles() {
 
   document.getElementById("project2-title").innerText = "Shopping Cart";
   document.getElementById("project2-text").innerText = "This simple shopping cart is a project to practice: React, Context API, React Router, TypeScript and some CSS";
-
-  document.getElementById("project3-title").innerText = "Picture Galery";
-  document.getElementById("project3-text").innerText = "Photo gallery project to practice React Router and Context API";
 
   document.getElementById("project4-title").innerText = "Multiform React";
   document.getElementById("project4-text").innerText = "Multiform with React and Typescript to practice React Router and Context. It also uses the GitHub API for data fetching";
