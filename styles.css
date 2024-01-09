@@ -489,17 +489,15 @@ text-decoration: none;
 
 .projects-card img {
     max-width: 100%;
-    max-height: 250px;
+    height: 220px;
     object-fit: cover;
     border-radius: 22px 22px 0px 0px;
     filter: grayscale(100%)
 }
 
-
 .project-content {
     padding: 15px;
     color: white;
-    align-items: center;
     text-align: left;
 }
 
@@ -527,8 +525,13 @@ text-decoration: none;
     margin-top: 30px;
 }
 
-/*PROJECTS END*/
+.project-techs{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
 
+/*PROJECTS END*/
 
 .material-symbols-outlined {
     font-variation-settings:

@@ -73,7 +73,7 @@ function portugues() {
 
   /*Projects translation start*/
   document.getElementById("Projects").innerText = "Projetos";
-  document.getElementById("project1-title").innerText = "NLW 03 - Orfanato - Front-end";
+  document.getElementById("project1-title").innerText = "NLW 03 - Orfanato";
   document.getElementById("project1-text").innerText = "Projeto NLW da RocketSeat, esta é somente a versão front-end do projeto usando uma API de mapas";
 
 
@@ -86,7 +86,7 @@ function portugues() {
   document.getElementById("project5-title").innerText = "Rastreador de despesas";
   document.getElementById("project5-text").innerText = "Simples rastreador de despesas. Meu primeiro projeyto com TypeScript. Um bom projeto para começar a aprender alguns conceitos de TypeScript";
 
-  document.getElementById("project6-title").innerText = "Lista de tarefas JavaScript";
+  document.getElementById("project6-title").innerText = "Lista de tarefas";
   document.getElementById("project6-text").innerText = "Uma simples lista de tarefas com JavaScript. Você pode criar, deletar, marcar a tarefa como finalizada ao dar um duplo clique nela, limpar a sua lista de tarefas, alertas para tarefa repetida e quando o usuário tenta adicionar uma tarefa duplicada"
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
@@ -198,7 +198,7 @@ function ingles() {
   /*Projects translation start*/
 
   document.getElementById("Projects").innerText = "Projects";
-  document.getElementById("project1-title").innerText = "NLW 03 - Orphanage - Front-end";
+  document.getElementById("project1-title").innerText = "NLW 03 - Orphanage";
   document.getElementById("project1-text").innerText = "NLW project from RocketSeat TechSchool, this is just the front-end version of the project using a MAP free API";
 
   document.getElementById("project2-title").innerText = "Shopping Cart";
@@ -210,7 +210,7 @@ function ingles() {
   document.getElementById("project5-title").innerText = "Simple Expense Tracker";
   document.getElementById("project5-text").innerText = "Simple expense tracker project. My first project with typescript, for some variables it was not possible to type the variable correctly since I am new to this, but the project was good to start learning some TypeScript concepts";
 
-  document.getElementById("project6-title").innerText = "JavaScript To Do List";
+  document.getElementById("project6-title").innerText = "To Do List";
   document.getElementById("project6-text").innerText = "One simple 'to do' App with vanilla JavaScript. You can: Create task, delete task, mark a task as completed by double clicking it, clean entire list of tasks, warnings for repeated task, warning when the user tries to add empty task"
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
