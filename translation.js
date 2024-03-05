@@ -87,7 +87,7 @@ function portugues() {
   document.getElementById("project5-text").innerText = "Simples rastreador de despesas. Meu primeiro projeyto com TypeScript. Um bom projeto para começar a aprender alguns conceitos de TypeScript";
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
-  document.getElementById("project6-text").innerText = "UmaUsando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE"
+  document.getElementById("project6-text").innerText = "Usando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE"
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
   document.getElementById("project7-text").innerText = "Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato."
