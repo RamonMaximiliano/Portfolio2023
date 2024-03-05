@@ -66,6 +66,11 @@ function portugues() {
   document.getElementById("SQL-Avançado").innerText = "Avançado";
   document.getElementById("GitHub-Avançado").innerText = "Avançado";
   document.getElementById("Java-Avançado").innerText = "Básico";
+  document.getElementById("Next-Avançado").innerText = "Básico";
+  document.getElementById("Tailwind-Avançado").innerText = "Intermediário";
+  document.getElementById("Postgre-Avançado").innerText = "Básico";
+  document.getElementById("Prisma-Avançado").innerText = "Básico";
+  document.getElementById("WebDesign-Avançado").innerText = "Básico";
   document.getElementById("Technical").innerText = "Conhecimento técnico";
 
   /*Techs translation end*/
@@ -192,6 +197,11 @@ function ingles() {
   document.getElementById("SQL-Avançado").innerText = "Advanced";
   document.getElementById("GitHub-Avançado").innerText = "Advanced";
   document.getElementById("Java-Avançado").innerText = "Basic";
+  document.getElementById("Next-Avançado").innerText = "Basic";
+  document.getElementById("Tailwind-Avançado").innerText = "Intermediate";
+  document.getElementById("Postgre-Avançado").innerText = "Basic";
+  document.getElementById("Prisma-Avançado").innerText = "Basic";
+  document.getElementById("WebDesign-Avançado").innerText = "Basic";
   document.getElementById("Technical").innerText = "  Technical knowledge";
   /*Techs translation end*/
 
