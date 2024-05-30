@@ -94,6 +94,9 @@ function portugues() {
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Usando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE"
 
+  document.getElementById("project8-title").innerText = "Fullstack GamerStore";
+  document.getElementById("project8-text").innerText = "Meu segundo projeto Fullstack! Um E-commerce de produtos de informática. Totalmente responsivo com integração com banco de dados Supabase."
+
   document.getElementById("project7-title").innerText = "E-Commerce-React";
   document.getElementById("project7-text").innerText = "Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato."
 
@@ -222,6 +225,9 @@ function ingles() {
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE."
+
+  document.getElementById("project8-title").innerText = "Fullstack GamerStore";
+  document.getElementById("project8-text").innerText = "My second fullstack project! An e-commerce site for computer products. Fully responsive with integration to a Supabase database."
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
   document.getElementById("project7-text").innerText = "A React e-commerce project for practicing, featuring product pages, a shopping cart, a carousel (without the use of external libraries), and a contact page."
