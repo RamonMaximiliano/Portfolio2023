@@ -91,6 +91,9 @@ function portugues() {
   document.getElementById("project5-title").innerText = "Rastreador de despesas";
   document.getElementById("project5-text").innerText = "Simples rastreador de despesas. Meu primeiro projeyto com TypeScript. Um bom projeto para começar a aprender alguns conceitos de TypeScript";
 
+  document.getElementById("project9-title").innerText = "Landing page Professor";
+  document.getElementById("project9-text").innerText = "Uma landing page simples para promover minhas aulas particulares de inglês"
+
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Usando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE"
 
@@ -225,6 +228,10 @@ function ingles() {
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE."
+
+    document.getElementById("project9-title").innerText = "Teacher landing page";
+  document.getElementById("project9-text").innerText = "A simple landing page to promote my private English classes"
+
 
   document.getElementById("project8-title").innerText = "Fullstack GamerStore";
   document.getElementById("project8-text").innerText = "My second fullstack project! An e-commerce site for computer products. Fully responsive with integration to a Supabase database."
