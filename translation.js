@@ -229,7 +229,7 @@ function ingles() {
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE."
 
-    document.getElementById("project9-title").innerText = "Teacher landing page";
+  document.getElementById("project9-title").innerText = "Teacher landing page";
   document.getElementById("project9-text").innerText = "A simple landing page to promote my private English classes"
 
 
