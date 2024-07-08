@@ -87,16 +87,16 @@ function portugues() {
 
 
   document.getElementById("project9-title").innerText = "Landing page Professor";
-  document.getElementById("project9-text").innerText = "Uma landing page simples para promover minhas aulas particulares de inglês"
+  document.getElementById("project9-text").innerText = "Uma landing page simples para promover minhas aulas particulares de inglês";
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
-  document.getElementById("project6-text").innerText = "Usando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE"
+  document.getElementById("project6-text").innerText = "Usando Next JS, consegui fazer meu primeiro App com back end, criando, consultando e utilizando métodos de API como: GET, POST, e DELETE";
 
   document.getElementById("project8-title").innerText = "Fullstack GamerStore";
-  document.getElementById("project8-text").innerText = "Meu segundo projeto Fullstack! Um E-commerce de produtos de informática. Totalmente responsivo com integração com banco de dados Supabase."
+  document.getElementById("project8-text").innerText = "Meu segundo projeto Fullstack! Um E-commerce de produtos de informática. Totalmente responsivo com integração com banco de dados Supabase.";
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
-  document.getElementById("project7-text").innerText = "Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato."
+  document.getElementById("project7-text").innerText = "Um projeto de e-commerce para praticar o React, com página de produtos, carrinho de compras, carrossel (sem o uso de bibliotecas externas) e uma página de contato.";
 
   /*Projects translation end*/
 
@@ -216,17 +216,17 @@ function ingles() {
   document.getElementById("project2-text").innerText = "This simple shopping cart is a project to practice: React, Context API, React Router, TypeScript and some CSS";
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
-  document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE."
+  document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE.";
 
   document.getElementById("project9-title").innerText = "Teacher landing page";
-  document.getElementById("project9-text").innerText = "A simple landing page to promote my private English classes"
+  document.getElementById("project9-text").innerText = "A simple landing page to promote my private English classes";
 
 
   document.getElementById("project8-title").innerText = "Fullstack GamerStore";
-  document.getElementById("project8-text").innerText = "My second fullstack project! An e-commerce site for computer products. Fully responsive with integration to a Supabase database."
+  document.getElementById("project8-text").innerText = "My second fullstack project! An e-commerce site for computer products. Fully responsive with integration to a Supabase database.";
 
   document.getElementById("project7-title").innerText = "E-Commerce-React";
-  document.getElementById("project7-text").innerText = "A React e-commerce project for practicing, featuring product pages, a shopping cart, a carousel (without the use of external libraries), and a contact page."
+  document.getElementById("project7-text").innerText = "A React e-commerce project for practicing, featuring product pages, a shopping cart, a carousel (without the use of external libraries), and a contact page.";
 
 
   /*Projects translation end*/
