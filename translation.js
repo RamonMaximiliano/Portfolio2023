@@ -85,11 +85,6 @@ function portugues() {
   document.getElementById("project2-title").innerText = "Carrinho de compras";
   document.getElementById("project2-text").innerText = "Um projeto simples de carrinho de compras para praticar: React, Context API, React Router, TypeScript e um pouco de CSS";
 
-  document.getElementById("project4-title").innerText = "Multiformulário React";
-  document.getElementById("project4-text").innerText = "Multiformulário com React e Typescript para praticar React Router e Context API. Também usa a API do GitHub para buscar dados";
-
-  document.getElementById("project5-title").innerText = "Rastreador de despesas";
-  document.getElementById("project5-text").innerText = "Simples rastreador de despesas. Meu primeiro projeyto com TypeScript. Um bom projeto para começar a aprender alguns conceitos de TypeScript";
 
   document.getElementById("project9-title").innerText = "Landing page Professor";
   document.getElementById("project9-text").innerText = "Uma landing page simples para promover minhas aulas particulares de inglês"
@@ -219,12 +214,6 @@ function ingles() {
 
   document.getElementById("project2-title").innerText = "Shopping Cart";
   document.getElementById("project2-text").innerText = "This simple shopping cart is a project to practice: React, Context API, React Router, TypeScript and some CSS";
-
-  document.getElementById("project4-title").innerText = "Multiform React";
-  document.getElementById("project4-text").innerText = "Multiform with React and Typescript to practice React Router and Context. It also uses the GitHub API for data fetching";
-
-  document.getElementById("project5-title").innerText = "Simple Expense Tracker";
-  document.getElementById("project5-text").innerText = "Simple expense tracker project. My first project with typescript, for some variables it was not possible to type the variable correctly since I am new to this, but the project was good to start learning some TypeScript concepts";
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE."
