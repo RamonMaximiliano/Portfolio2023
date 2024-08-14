@@ -82,8 +82,8 @@ function portugues() {
   document.getElementById("project1-text").innerText = "Projeto NLW da RocketSeat, esta é somente a versão front-end do projeto usando uma API de mapas";
 
 
-  document.getElementById("project2-title").innerText = "CRUD Página de login";
-  document.getElementById("project2-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com integração com banco de dados Supabase.";
+  document.getElementById("project3-title").innerText = "CRUD Página de login";
+  document.getElementById("project3-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com integração com banco de dados Supabase.";
 
 
   document.getElementById("project9-title").innerText = "Landing page Professor";
@@ -212,8 +212,8 @@ function ingles() {
   document.getElementById("project1-title").innerText = "NLW 03 - Orphanage";
   document.getElementById("project1-text").innerText = "NLW project from RocketSeat TechSchool, this is just the front-end version of the project using a MAP free API";
 
-  document.getElementById("project2-title").innerText = "CRUD Login page";
-  document.getElementById("project2-text").innerText = "A login page where it's possible to create, delete, update, and the system reads which user is logged in. Complete CRUD project with integration to a Supabase database.";
+  document.getElementById("project3-title").innerText = "CRUD Login page";
+  document.getElementById("project3-text").innerText = "A login page where it's possible to create, delete, update, and the system reads which user is logged in. Complete CRUD project with integration to a Supabase database.";
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";
   document.getElementById("project6-text").innerText = "Using Next.js, I managed to build my first app with a backend, creating, querying, and utilizing API methods such as GET, POST, and DELETE.";
