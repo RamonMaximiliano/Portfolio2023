@@ -1,4 +1,4 @@
-/* LANGUAGE CHANGER START */
+/* LANGUAGE CHANGER START  */
 
 function portugues() {
   document.getElementById("Ingles").classList.remove("language-changer-button");
