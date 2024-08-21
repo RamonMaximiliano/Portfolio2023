@@ -78,7 +78,6 @@ function portugues() {
 
   /*Projects translation start*/
   document.getElementById("Projects").innerText = "Projetos";
-
   document.getElementById("project3-title").innerText = "CRUD Página de login - FullStack";
   document.getElementById("project3-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com integração com banco de dados Supabase.";
 
@@ -209,7 +208,6 @@ function ingles() {
   /*Projects translation start*/
 
   document.getElementById("Projects").innerText = "Projects";
-
   document.getElementById("project3-title").innerText = "CRUD Login page - FullStack";
   document.getElementById("project3-text").innerText = "A login page where it's possible to create, delete, update, and the system reads which user is logged in. Complete CRUD project with integration to a Supabase database.";
 
