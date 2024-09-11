@@ -15,7 +15,7 @@ function portugues() {
 
   /*Profile translation start*/
   document.querySelector(".profession").innerText =
-    "Aprendendo Web Dev, a meta é ser dev full stack";
+    "Web Developer | Engenheiro de Software | Professor de Inglês e Espanhol";
   document.getElementById("Fone").innerText = "Fone: ";
   document.getElementById("Endereço").innerText = "Endereço: ";
   /*Profile translation end*/
@@ -30,8 +30,7 @@ function portugues() {
   document.getElementById("Education").innerText = "Formação";
   document.getElementById("graduation").innerText =
     "Análise e desenvolvimento de sistemas";
-  document.getElementById("mba-data").innerText = "MBA em Data Science";
-  document.getElementById("mba-data").innerText = "MBA em Data Science";
+  document.getElementById("mba-data").innerText = "MBA em Inteligência Artificial";
   document.getElementById("mba-project").innerText =
     "MBA em Gestão de projetos";
   document.getElementById("graduation-text").innerText =
@@ -61,16 +60,16 @@ function portugues() {
   document.getElementById("JavaScript-Avançado").innerText = "Avançado";
   document.getElementById("Python-Avançado").innerText = "Básico";
   document.getElementById("Node-Avançado").innerText = "Básico";
-  document.getElementById("React-Avançado").innerText = "Básico";
-  document.getElementById("TypeScript-Avançado").innerText = "Intermediário";
+  document.getElementById("React-Avançado").innerText = "Avançado";
+  document.getElementById("TypeScript-Avançado").innerText = "Avançado";
   document.getElementById("SQL-Avançado").innerText = "Avançado";
   document.getElementById("GitHub-Avançado").innerText = "Avançado";
-  document.getElementById("Java-Avançado").innerText = "Básico";
-  document.getElementById("Next-Avançado").innerText = "Básico";
-  document.getElementById("Tailwind-Avançado").innerText = "Intermediário";
+  document.getElementById("native-Avançado").innerText = "Intermediário";
+  document.getElementById("Next-Avançado").innerText = "Intermediário";
+  document.getElementById("Tailwind-Avançado").innerText = "Avançado";
   document.getElementById("Postgre-Avançado").innerText = "Básico";
-  document.getElementById("Prisma-Avançado").innerText = "Básico";
-  document.getElementById("WebDesign-Avançado").innerText = "Básico";
+  document.getElementById("Prisma-Avançado").innerText = "Intermediário";
+  document.getElementById("Jest-Avançado").innerText = "Intermediário";
   document.getElementById("Technical").innerText = "Conhecimento técnico";
 
   /*Techs translation end*/
@@ -81,11 +80,11 @@ function portugues() {
   document.getElementById("project3-title").innerText = "CRUD Página de login - FullStack";
   document.getElementById("project3-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com integração com banco de dados Supabase.";
 
-  document.getElementById("project1-title").innerText = "React Native ToDo List";
+  document.getElementById("project1-title").innerText = "React Native ToDo";
   document.getElementById("project1-text").innerText = "Um app de lista de tarefas em React Native, meu primeiro App na linguagem! Toast lib para mensagems personalizadas e doubleclick lib para marcar as tarefas finalizadas.";
 
   document.getElementById("project2-title").innerText = "CRUD Página de login";
-  document.getElementById("project2-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com localStorage como simulação de um DataBase.";
+  document.getElementById("project2-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com localStorage como simulação de um DataBase e testes unitários e integrados com Jest.";
 
 
   document.getElementById("project9-title").innerText = "Landing page Professor";
@@ -151,7 +150,7 @@ function ingles() {
 
   /*Profile translation start*/
   document.querySelector(".profession").innerText =
-    "Learning Web Dev, the goal is to be a full stack dev";
+    "Web Developer | Software engineer | English & Spanish teacher";
   document.getElementById("Fone").innerText = "Phone: ";
   document.getElementById("Endereço").innerText = "Address: ";
   /*Profile translation end*/
@@ -166,7 +165,7 @@ function ingles() {
   document.getElementById("Education").innerText = "Education";
   document.getElementById("graduation").innerText =
     "System Analysis and Development";
-  document.getElementById("mba-data").innerText = "MBA in Data Science";
+  document.getElementById("mba-data").innerText = "MBA in Artifical Inteligence";
   document.getElementById("mba-project").innerText =
     "MBA in Project Management";
   document.getElementById("graduation-text").innerText =
@@ -195,16 +194,16 @@ function ingles() {
   document.getElementById("JavaScript-Avançado").innerText = "Advanced";
   document.getElementById("Python-Avançado").innerText = "Basic";
   document.getElementById("Node-Avançado").innerText = "Basic";
-  document.getElementById("React-Avançado").innerText = "Basic";
-  document.getElementById("TypeScript-Avançado").innerText = "Intermediate";
+  document.getElementById("React-Avançado").innerText = "Advanced";
+  document.getElementById("TypeScript-Avançado").innerText = "Advanced";
   document.getElementById("SQL-Avançado").innerText = "Advanced";
   document.getElementById("GitHub-Avançado").innerText = "Advanced";
-  document.getElementById("Java-Avançado").innerText = "Basic";
-  document.getElementById("Next-Avançado").innerText = "Basic";
-  document.getElementById("Tailwind-Avançado").innerText = "Intermediate";
+  document.getElementById("native-Avançado").innerText = "Intermediate";
+  document.getElementById("Next-Avançado").innerText = "Intermediate";
+  document.getElementById("Tailwind-Avançado").innerText = "Advanced";
   document.getElementById("Postgre-Avançado").innerText = "Basic";
-  document.getElementById("Prisma-Avançado").innerText = "Basic";
-  document.getElementById("WebDesign-Avançado").innerText = "Basic";
+  document.getElementById("Prisma-Avançado").innerText = "Intermediate";
+  document.getElementById("Jest-Avançado").innerText = "Intermediate";
   document.getElementById("Technical").innerText = "  Technical knowledge";
   /*Techs translation end*/
 
@@ -214,12 +213,12 @@ function ingles() {
   document.getElementById("project3-title").innerText = "CRUD Login page - FullStack";
   document.getElementById("project3-text").innerText = "A login page where it's possible to create, delete, update, and the system reads which user is logged in. Complete CRUD project with integration to a Supabase database.";
 
-  document.getElementById("project1-title").innerText = "React Native ToDo List";
+  document.getElementById("project1-title").innerText = "React Native ToDo";
   document.getElementById("project1-text").innerText = "A task list app in React Native, my first app in the language! Using the Toast library for custom messages and the double-click library to mark tasks as completed.";
 
 
   document.getElementById("project2-title").innerText = "CRUD Login page";
-  document.getElementById("project2-text").innerText = "A login page where it is possible to create, delete, update, and the system identifies which user is logged in. A complete CRUD project using localStorage as a simulation of a database.";
+  document.getElementById("project2-text").innerText = "A login page where it is possible to create, delete, update, and the system identifies which user is logged in. A complete CRUD project using localStorage as a simulation of a database and unit and integration tests with Jest.";
 
 
   document.getElementById("project6-title").innerText = "Fullstack Trips";

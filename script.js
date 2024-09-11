@@ -26,7 +26,6 @@ function profilePicture() {
       return profile_data.json();
     })
     .then(function (profile_data) {
-      document.getElementById("Profile_name").innerHTML = profile_data.name;
       document
         .getElementById("profile_picture")
         .setAttribute("src", `${profile_data.avatar_url}`);
