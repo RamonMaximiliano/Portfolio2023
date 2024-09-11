@@ -81,6 +81,9 @@ function portugues() {
   document.getElementById("project3-title").innerText = "CRUD Página de login - FullStack";
   document.getElementById("project3-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com integração com banco de dados Supabase.";
 
+  document.getElementById("project1-title").innerText = "React Native ToDo List";
+  document.getElementById("project1-text").innerText = "Um app de lista de tarefas em React Native, meu primeiro App na linguagem! Toast lib para mensagems personalizadas e doubleclick lib para marcar as tarefas finalizadas.";
+
   document.getElementById("project2-title").innerText = "CRUD Página de login";
   document.getElementById("project2-text").innerText = "Uma login page onde é possivel criar, deletar, atualizar, e o sistema lê qual usuário logado. Projeto CRUD completo com localStorage como simulação de um DataBase.";
 
@@ -211,7 +214,10 @@ function ingles() {
   document.getElementById("project3-title").innerText = "CRUD Login page - FullStack";
   document.getElementById("project3-text").innerText = "A login page where it's possible to create, delete, update, and the system reads which user is logged in. Complete CRUD project with integration to a Supabase database.";
 
-  
+  document.getElementById("project1-title").innerText = "React Native ToDo List";
+  document.getElementById("project1-text").innerText = "A task list app in React Native, my first app in the language! Using the Toast library for custom messages and the double-click library to mark tasks as completed.";
+
+
   document.getElementById("project2-title").innerText = "CRUD Login page";
   document.getElementById("project2-text").innerText = "A login page where it is possible to create, delete, update, and the system identifies which user is logged in. A complete CRUD project using localStorage as a simulation of a database.";
 
